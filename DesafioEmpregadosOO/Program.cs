@@ -1,0 +1,43 @@
+﻿using System;
+using System.Globalization;
+
+namespace DesafioEmpregadosOO.Entities
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Nome do departamento: ");
+            string nameDepartament = Console.ReadLine();
+
+            Console.Write("Dia do pagamento: ");
+            int payDay = int.Parse(Console.ReadLine());
+
+            Console.Write("Email: ");
+            string emailDepartament = Console.ReadLine();
+
+            Console.Write("Telefone: ");
+            string phoneNumberDepartament = Console.ReadLine();
+
+            Department dep = new Department(nameDepartament, payDay, new Adress(emailDepartament, phoneNumberDepartament));
+
+            Console.Write("Quantos funcionários tem o departamento? ");
+            int n = int.Parse(Console.ReadLine());
+
+            for(int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Dados do funcionário {i}:");
+                Console.Write("Nome: ");
+                string nameEmployee = Console.ReadLine();
+
+                Console.Write("Salário: ");
+                double salaryEmployee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                dep.AddEmployee(new Employee(nameEmployee, salaryEmployee));
+            }
+
+            Console.WriteLine();
+            Console.WriteLine(dep);
+        }
+    }
+}

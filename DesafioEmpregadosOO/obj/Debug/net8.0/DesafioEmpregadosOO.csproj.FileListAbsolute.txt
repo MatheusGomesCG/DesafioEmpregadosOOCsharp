@@ -1,0 +1,14 @@
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\bin\Debug\net8.0\DesafioEmpregadosOO.exe
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\bin\Debug\net8.0\DesafioEmpregadosOO.deps.json
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\bin\Debug\net8.0\DesafioEmpregadosOO.runtimeconfig.json
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\bin\Debug\net8.0\DesafioEmpregadosOO.dll
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\bin\Debug\net8.0\DesafioEmpregadosOO.pdb
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.AssemblyInfo.cs
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.dll
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\refint\DesafioEmpregadosOO.dll
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.pdb
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.genruntimeconfig.cache
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\ref\DesafioEmpregadosOO.dll

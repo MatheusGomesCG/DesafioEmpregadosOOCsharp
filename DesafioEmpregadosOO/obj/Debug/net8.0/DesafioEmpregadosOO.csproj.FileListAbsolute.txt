@@ -12,3 +12,4 @@ C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Deb
 C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.pdb
 C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.genruntimeconfig.cache
 C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\ref\DesafioEmpregadosOO.dll
+C:\Users\ASUS\Documents\C# Nelio\DesafioEmpregadosOO\DesafioEmpregadosOO\obj\Debug\net8.0\DesafioEmpregadosOO.sourcelink.json

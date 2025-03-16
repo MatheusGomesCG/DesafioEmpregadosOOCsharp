@@ -42,21 +42,5 @@ namespace DesafioEmpregadosOO.Entities
             }
             return sum;
         }
-
-        public override string ToString()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine("FOLHA DE PAGAMENTO: ");
-            sb.AppendLine($"Departamento {Name} = R$ {Payroll().ToString("F2", CultureInfo.InvariantCulture)}");
-            sb.AppendLine($"Pagamento realizado no dia {PayDay}");
-            sb.AppendLine("Funcionários:");
-            foreach(Employee obj in EmployeeDepartament)
-            {
-                sb.AppendLine(obj.Name);
-            }
-            sb.AppendLine($"Para dúvidas favor entrar em contato: {AdressDepartament.Email}");
-
-            return sb.ToString();
-        }
     }
 }

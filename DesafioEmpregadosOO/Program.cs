@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Globalization;
+using System.Text;
+using System.Xml.Linq;
 
 namespace DesafioEmpregadosOO.Entities
 {
@@ -37,7 +39,23 @@ namespace DesafioEmpregadosOO.Entities
             }
 
             Console.WriteLine();
-            Console.WriteLine(dep);
+            ShowReport(dep);
+        }
+
+        private static void ShowReport(Department dept)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("FOLHA DE PAGAMENTO: ");
+            sb.AppendLine($"Departamento {dept.Name} = R$ {dept.Payroll().ToString("F2", CultureInfo.InvariantCulture)}");
+            sb.AppendLine($"Pagamento realizado no dia {dept.PayDay}");
+            sb.AppendLine("Funcionários:");
+            foreach (Employee obj in dept.EmployeeDepartament)
+            {
+                sb.AppendLine(obj.Name);
+            }
+            sb.AppendLine($"Para dúvidas favor entrar em contato: {dept.AdressDepartament.Email}");
+
+            Console.WriteLine(sb.ToString());
         }
     }
 }
